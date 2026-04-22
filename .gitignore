@@ -1,0 +1,22 @@
+# Exclude all notebooks except the two we want to push
+*.ipynb
+!EDA.ipynb
+!siglep.ipynb
+
+# OS / editor
+.DS_Store
+
+# Node
+node_modules/
+package-lock.json
+
+# Data / artifacts
+*.npy
+*.csv
+csiro-biomass/
+models/
+trained_models/
+
+# Generated docs
+*.docx
+generate_doc.js
